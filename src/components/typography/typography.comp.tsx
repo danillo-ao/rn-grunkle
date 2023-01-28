@@ -8,9 +8,11 @@ const Typography: React.FC<TypographyProps> = ({
   color,
   family,
   children,
+  align,
+  size,
   ...props
 }) => {
-  const css = { color, fontFamily: family };
+  const css = { color, fontFamily: family, fontSize: size, textAlign: align };
   return (
     <Styles.TypographyContent css={css} {...props}>
       {children}
@@ -20,7 +22,8 @@ const Typography: React.FC<TypographyProps> = ({
 
 Typography.defaultProps = {
   color: '$text0',
-  family: '$roboto',
+  family: '$default',
+  size: '$default',
 };
 
 export { Typography };

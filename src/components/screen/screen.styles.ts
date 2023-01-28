@@ -2,7 +2,6 @@ import { styled } from '@theme/theme';
 
 export const ScreenContent = styled('View', {
   flex: 1,
-  bg: '$background0',
 });
 
 export const ScreenScrollView = styled('ScrollView', {

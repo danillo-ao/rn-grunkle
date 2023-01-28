@@ -1,4 +1,4 @@
-import { StitchesSpace } from '@theme/theme.types';
+import { StitchesColor, StitchesSpace } from '@theme/theme.types';
 
 export interface ScreenProps {
   children?: any;
@@ -11,9 +11,16 @@ export interface ScreenProps {
   scrollview?: boolean;
 
   /**
+   * define the background of the screen
+   *
+   * @default $background01
+   */
+  bg?: StitchesColor;
+
+  /**
    * define the edges spacing inside the screen content
    *
-   * @default $3
+   * @default $default
    */
   spacing?: StitchesSpace;
 }

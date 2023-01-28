@@ -4,8 +4,14 @@ import { ScreenProps } from '@components/screen/screen.types';
 
 import * as Styles from './screen.styles';
 
-const Screen: React.FC<ScreenProps> = ({ children, scrollview, spacing }) => {
+const Screen: React.FC<ScreenProps> = ({
+  children,
+  scrollview,
+  bg,
+  spacing,
+}) => {
   const css = { pa: spacing };
+  const screenCss = { bg };
 
   const renderContent = () => {
     if (scrollview) {
@@ -26,15 +32,16 @@ const Screen: React.FC<ScreenProps> = ({ children, scrollview, spacing }) => {
   };
 
   return (
-    <Styles.ScreenContent testID="screen-view">
+    <Styles.ScreenContent testID="screen-view" css={screenCss}>
       {renderContent()}
     </Styles.ScreenContent>
   );
 };
 
 Screen.defaultProps = {
+  bg: '$background0',
+  spacing: '$4',
   scrollview: true,
-  spacing: '$3',
 };
 
 export { Screen };
