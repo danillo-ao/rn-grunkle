@@ -17,6 +17,7 @@ const Screen: React.FC<ScreenProps> = ({ children, scrollview, spacing }) => {
         </Styles.ScreenScrollView>
       );
     }
+
     return (
       <Styles.ScreenContentInner css={css}>
         {children}

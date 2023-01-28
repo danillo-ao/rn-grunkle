@@ -1,5 +1,5 @@
 export const fonts = {
-  roboto: 'Roboto, apple-system, sans-serif',
+  roboto: 'Roboto',
 };
 
 export const fontSizes = {
