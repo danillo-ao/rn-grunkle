@@ -1,6 +1,6 @@
 {
-  "name": "react-native-template-grunkle",
-  "version": "0.0.1",
+  "name": "rn-grunkle",
+  "version": "1.1.0",
   "description": "React Native Grunkle Template",
   "repository": "git@github.com:danillo-ao/template-grunkle.git",
   "author": "Danillo Oliveira <danillo.alves.o@gmail.com>",
