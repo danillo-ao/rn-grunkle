@@ -23,6 +23,8 @@
     "@tanstack/react-query": "^4.23.0",
     "axios": "^1.2.5",
     "lodash": "^4.17.21",
+    "lottie-ios": "3.4.0",
+    "lottie-react-native": "^5.1.4",
     "react": "18.2.0",
     "react-native": "0.71.1",
     "react-native-bootsplash": "^4.4.1",

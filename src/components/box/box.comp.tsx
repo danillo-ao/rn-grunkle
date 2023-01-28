@@ -7,7 +7,7 @@ import * as Styles from './box.styles';
 const Box: React.FC<BoxProps> = ({ children, ...props }) => {
   const { pa, pt, pr, pb, pl, py, px } = props;
   const { ma, mt, mr, mb, ml, my, mx } = props;
-  const { flex, bg, width, align, justify } = props;
+  const { flex, bg, width, height, align, justify } = props;
 
   const css = {
     pa,
@@ -27,6 +27,7 @@ const Box: React.FC<BoxProps> = ({ children, ...props }) => {
     flex,
     bg,
     width,
+    height,
     alignItems: align,
     justifyContent: justify,
   };

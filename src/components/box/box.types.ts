@@ -22,6 +22,7 @@ export interface BoxProps extends ViewProps {
   flex?: number;
   bg?: StitchesColor;
   width?: number | string;
+  height?: number | string;
   align?: 'flex-start' | 'flex-end' | 'center';
   justify?: 'flex-start' | 'flex-end' | 'center';
 }
