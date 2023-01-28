@@ -1,7 +1,7 @@
 import { createStitches } from 'stitches-native';
-import { stitchesConfig } from '@theme/stitches.config';
+import { themeConfig } from '@theme/theme.config';
 
 const { ThemeProvider, styled, useTheme, theme, config } =
-  createStitches(stitchesConfig);
+  createStitches(themeConfig);
 
 export { ThemeProvider, theme, styled, useTheme, config };
