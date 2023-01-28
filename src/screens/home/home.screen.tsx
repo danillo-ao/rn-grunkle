@@ -13,7 +13,7 @@ import { useTheme } from '@theme/theme';
 import * as Styles from './home.styles';
 
 const animation = require('@assets/lottie-files/egg-tilting.json');
-const HomeScreen: React.FC<HomeScreenProps> = () => {
+const HomeScreen: HomeScreenProps = () => {
   const theme = useTheme();
 
   return (

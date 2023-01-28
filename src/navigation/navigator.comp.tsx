@@ -17,7 +17,7 @@ const Navigator = () => {
       initialRouteName={routes.index}
       screenOptions={screenOptions}
     >
-      <Stack.Screen name={routes.home} component={HomeScreen as any} />
+      <Stack.Screen name={routes.home} component={HomeScreen} />
     </Stack.Navigator>
   );
 };
