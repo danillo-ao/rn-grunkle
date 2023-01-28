@@ -14,7 +14,7 @@
       "@services/*": ["src/services/*"],
       "@utils/*": ["src/utils/*"],
       "@theme/*": ["src/theme/*"],
-      "@tests": ["src/tests/index.tsx"],
+      "@tests": ["src/tests/index.tsx"]
     }
   }
 }
