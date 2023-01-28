@@ -1,6 +1,8 @@
 import React from 'react';
-import AppComposer from './app.composer';
+
 import { styled } from '@theme/theme';
+
+import AppComposer from './app.composer';
 
 const SafeAreaView = styled('SafeAreaView', {
   flex: 1,

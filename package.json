@@ -30,6 +30,7 @@
     "@babel/runtime": "^7.20.0",
     "@react-native-community/eslint-config": "^3.0.0",
     "@testing-library/react-native": "^11.5.1",
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^29.2.1",
     "@types/react": "^18.0.24",
