@@ -4,6 +4,7 @@ import { QueryClientProvider } from '@tanstack/react-query';
 import { render } from '@testing-library/react-native';
 
 import { ThemeProvider } from '@theme/theme';
+
 import { queryClient } from '../app.composer';
 
 const AllTheProviders = ({ children }: any) => {
