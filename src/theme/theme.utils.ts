@@ -1,5 +1,6 @@
 export const utils = {
   // padding
+  pa: (value: any) => ({ padding: value }),
   pt: (value: any) => ({ paddingTop: value }),
   pr: (value: any) => ({ paddingRight: value }),
   pb: (value: any) => ({ paddingBottom: value }),
@@ -7,6 +8,7 @@ export const utils = {
   px: (value: any) => ({ paddingLeft: value, paddingRight: value }),
   py: (value: any) => ({ paddingTop: value, paddingBottom: value }),
   // margin
+  ma: (value: any) => ({ margin: value }),
   mt: (value: any) => ({ marginTop: value }),
   mr: (value: any) => ({ marginRight: value }),
   mb: (value: any) => ({ marginBottom: value }),
