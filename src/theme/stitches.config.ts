@@ -1,7 +1,8 @@
-import { CreateStitches } from 'stitches-native';
+// import { utils } from 'prettier/doc';
+import { colors } from '@theme/colors';
 
 export const stitchesConfig = {
-  theme: {},
-  media: {},
-  utils: {},
+  theme: {
+    colors,
+  },
 };
