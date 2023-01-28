@@ -1,6 +1,6 @@
 import { StitchesColor, StitchesSpace } from '@theme/theme.types';
 
-export interface ScreenProps {
+export interface ScreenCompProps {
   children?: any;
 
   /**
