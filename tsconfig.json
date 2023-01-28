@@ -1,5 +1,7 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     "isolatedModules": false,
     "types": ["jest"],
@@ -14,7 +16,7 @@
       "@services/*": ["src/services/*"],
       "@utils/*": ["src/utils/*"],
       "@theme/*": ["src/theme/*"],
-      "@tests": ["src/tests/index.tsx"],
+      "@tests": ["src/tests/index.tsx"]
     }
   }
 }

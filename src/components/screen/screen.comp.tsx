@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { ScreenProps } from '@components/screen/screen.types';
+import { ScreenCompProps } from '@components/screen/screen.types';
 
 import * as Styles from './screen.styles';
 
-const Screen: React.FC<ScreenProps> = ({
+const Screen: React.FC<ScreenCompProps> = ({
   children,
   scrollview,
   bg,
