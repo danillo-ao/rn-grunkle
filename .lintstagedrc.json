@@ -1,3 +1,4 @@
 {
-  "*.{js,jsx,ts,tsx}": "lint"
+  "*.{js,jsx,ts,tsx}": "eslint .",
+  "*.{ts,tsx}": "tsc --noemit"
 }

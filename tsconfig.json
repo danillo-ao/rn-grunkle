@@ -1,5 +1,7 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     "isolatedModules": false,
     "types": ["jest"],
